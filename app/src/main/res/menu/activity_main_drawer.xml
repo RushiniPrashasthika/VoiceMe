@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_NewNode"
+            android:icon="@android:drawable/ic_input_add"
+            android:title="New Node" />
+        <item
+            android:id="@+id/nav_OpenNode"
+            android:icon="@android:drawable/ic_input_get"
+            android:title="Open Node" />
+        <item
+            android:id="@+id/nav_Backup"
+            android:icon="@android:drawable/ic_menu_upload"
+            android:title="Backup" />
+        <item
+            android:id="@+id/nav_SaveAsPDF"
+            android:icon="@android:drawable/ic_menu_save"
+            android:title="Save As PDF" />
+        <item
+            android:id="@+id/nav_ViewFav"
+            android:icon="@android:drawable/btn_star_big_on"
+            android:title="View Favorites" />
+        <item
+            android:id="@+id/nav_AboutUs"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="About Us" />
+        <item
+            android:id="@+id/nav_Help"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="Help" />
+    </group>
+
+</menu>

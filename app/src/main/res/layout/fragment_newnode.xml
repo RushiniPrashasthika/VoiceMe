@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/et_date"
+        android:layout_width="176dp"
+        android:layout_height="54dp"
+        android:hint="Date"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="55dp" />
+
+    <EditText
+        android:id="@+id/et_time"
+        android:layout_width="166dp"
+        android:layout_height="57dp"
+        android:hint="Time"
+        tools:layout_editor_absoluteX="229dp"
+        tools:layout_editor_absoluteY="55dp" />
+
+    <EditText
+        android:id="@+id/et_title"
+        android:layout_width="174dp"
+        android:layout_height="61dp"
+        android:hint="Title"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+</android.support.constraint.ConstraintLayout>
